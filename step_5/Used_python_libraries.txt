@@ -1,0 +1,18 @@
+from azure.ai.formrecognizer import FormRecognizerClient
+from azure.ai.formrecognizer import FormTrainingClient
+from azure.core.credentials import AzureKeyCredential
+import matplotlib.pyplot as plt
+import matplotlib.image as mpimg
+import pandas as pd
+import os
+from datetime import datetime
+from video_indexer import VideoIndexer
+from azure.cognitiveservices.vision.face import FaceClient
+from azure.cognitiveservices.vision.face.models import TrainingStatusType
+from msrest.authentication import CognitiveServicesCredentials
+import io
+import glob, os, sys, time, uuid
+from azure.cognitiveservices.vision.customvision.training import CustomVisionTrainingClient
+from azure.cognitiveservices.vision.customvision.prediction import CustomVisionPredictionClient
+from azure.cognitiveservices.vision.customvision.training.models import ImageFileCreateBatch, ImageFileCreateEntry, Region
+from msrest.authentication import ApiKeyCredentials

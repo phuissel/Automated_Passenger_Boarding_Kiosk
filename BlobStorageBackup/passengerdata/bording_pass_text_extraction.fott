@@ -1,0 +1,279 @@
+{
+    "sourceConnection": {
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMmZkMjI4ZDA5ZDQ5YjVjNjIwNGMwYWJjYzUzZTlkZjhjNTgyNGI0ZjAyNDY2NjAwNzBjMWFmNzI2OTliMDc0YWMwMGE2OGVhNDMzOTEwMWFiMWViYzg2NjA1OWNjNmVmNjI5YjAzYzkyZjM1NDM4NjEyYzA4NmMzNTI3NTM1MTY0YzAzOGRkYTNiZjUwMjIzZGJlZDllZWYxNWJjNmJmZTBjMmY1OTEyMzBiNWQ5Y2ZjODMzZjc0MDAwNzU3ZDY4OWE5MjJlYjYwNTUzOWRkZDkxMTI5MzA1MDEzMmNiZjU1ZmIxNzQwMjJjZWE1NzVlYmRlNWRhODBhODg5MmMzMzQ0YjgzYjkzZThkY2FkOWY0YTFlY2Y4ODVlMzRkZjcwMzFmNjNhOTlhNjEyYjZlYjU0ZDQwOGQ2MzI1OWM0ZjcyOGQxYmY3MWIyNTNjYzAzM2FlZDJlZTg4NDQ3NmI5ZTU3NzBmMjk4ZGQzNzdlOGJlYTJmZjFiMTA4NmMwNzhlNWFhODdhZDM3OTMzYzkxMWJmZTE2MmRkMzZhYzYzOTQ1NTliYTA3ZWVmMWVhODgzODc3MjU5MjdjY2FiNDNlOCIsIml2IjoiYWE5OTg0MWQwZWNiMDMwOGZmYzEzOWFmZTIwNjRkOTYifQ=="
+        },
+        "id": "6NTNOL5Bq",
+        "name": "udacity-blob-storage",
+        "providerType": "azureBlobStorage"
+    },
+    "apiKey": {
+        "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNjdjNjc0ZmRhN2M1ODNkOTRkZTdjYmQxYTVmMTI4ZWViNjFkZTY3ODhjNGMzOGQzMjQ0Y2U3Njg3ZjI0M2ZiNDBkYjE0NmVjZGE5ODI4ZWQyZGQ5ZTc1ODUxZWU0N2QyIiwiaXYiOiJjNGMyOGJiZWQ3NzIzNjE4NTM2OWFhODlmYmQzOTUxMSJ9"
+    },
+    "name": "bording_pass_text_extraction",
+    "folderPath": "boardingPass",
+    "apiUriBase": "https://udacity-fr.cognitiveservices.azure.com/",
+    "securityToken": "bording_pass_text_extraction Token [1]",
+    "version": "2.1.0",
+    "id": "UiO6w2-Qe",
+    "tags": [
+        {
+            "name": "Passenger Name",
+            "color": "#CC543A",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 11
+        },
+        {
+            "name": "Carrier",
+            "color": "#7BA23F",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 11
+        },
+        {
+            "name": "Flight No.",
+            "color": "#58B2DC",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 11
+        },
+        {
+            "name": "Class",
+            "color": "#FFB11B",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 10
+        },
+        {
+            "name": "Origin",
+            "color": "#2E5C6E",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 11
+        },
+        {
+            "name": "Destination",
+            "color": "#A96360",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 11
+        },
+        {
+            "name": "Date",
+            "color": "#D7C4BB",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 11
+        },
+        {
+            "name": "Gate",
+            "color": "#8F77B5",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 11
+        },
+        {
+            "name": "Boarding Time",
+            "color": "#EEA9A9",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 11
+        },
+        {
+            "name": "Baggage",
+            "color": "#24936E",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 11
+        },
+        {
+            "name": "Seat",
+            "color": "#994639",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 11
+        }
+    ],
+    "assets": {
+        "03a9c35870a0023d683da8d8f67a5417b69d71cb7603d8a655243d7fb24e72ac": {
+            "id": "03a9c35870a0023d683da8d8f67a5417b69d71cb7603d8a655243d7fb24e72ac",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "boardingPass/boarding-avkash.pdf",
+            "path": "https://udacitykioskstorage.blob.core.windows.net/passengerdata/boardingPass/boarding-avkash.pdf?sp=racwdli&st=2023-12-21T11:26:30Z&se=2023-12-24T19:26:30Z&spr=https&sv=2022-11-02&sr=c&sig=exie53NShLKCxjo%2FCOOe%2FWwtGdh7ePxgzajf2e89BSk%3D",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "bdc42a8570c947c08b59397fb97e5ae32ad720fe6bdb9a8f59f576b1161ac6cc": {
+            "id": "bdc42a8570c947c08b59397fb97e5ae32ad720fe6bdb9a8f59f576b1161ac6cc",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "boardingPass/boarding-james-webb.pdf",
+            "path": "https://udacitykioskstorage.blob.core.windows.net/passengerdata/boardingPass/boarding-james-webb.pdf?sp=racwdli&st=2023-12-21T11:26:30Z&se=2023-12-24T19:26:30Z&spr=https&sv=2022-11-02&sr=c&sig=exie53NShLKCxjo%2FCOOe%2FWwtGdh7ePxgzajf2e89BSk%3D",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "15bf6129816293771c9cb18656641bda720f38469009956ac83489c735c706f6": {
+            "id": "15bf6129816293771c9cb18656641bda720f38469009956ac83489c735c706f6",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "boardingPass/boarding-james.pdf",
+            "path": "https://udacitykioskstorage.blob.core.windows.net/passengerdata/boardingPass/boarding-james.pdf?sp=racwdli&st=2023-12-21T11:26:30Z&se=2023-12-24T19:26:30Z&spr=https&sv=2022-11-02&sr=c&sig=exie53NShLKCxjo%2FCOOe%2FWwtGdh7ePxgzajf2e89BSk%3D",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "06a0edacaa832b9cfa3558e8d3a88022d693939f64dcf24416e22729345c001d": {
+            "id": "06a0edacaa832b9cfa3558e8d3a88022d693939f64dcf24416e22729345c001d",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "boardingPass/boarding-libby.pdf",
+            "path": "https://udacitykioskstorage.blob.core.windows.net/passengerdata/boardingPass/boarding-libby.pdf?sp=racwdli&st=2023-12-21T11:26:30Z&se=2023-12-24T19:26:30Z&spr=https&sv=2022-11-02&sr=c&sig=exie53NShLKCxjo%2FCOOe%2FWwtGdh7ePxgzajf2e89BSk%3D",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "185b39b49f82f33f8ea6337b82c33cdc205a78c4cc6fe1251696ff0c6a9af307": {
+            "id": "185b39b49f82f33f8ea6337b82c33cdc205a78c4cc6fe1251696ff0c6a9af307",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "boardingPass/boarding-radha-s-kumar.pdf",
+            "path": "https://udacitykioskstorage.blob.core.windows.net/passengerdata/boardingPass/boarding-radha-s-kumar.pdf?sp=racwdli&st=2023-12-21T11:26:30Z&se=2023-12-24T19:26:30Z&spr=https&sv=2022-11-02&sr=c&sig=exie53NShLKCxjo%2FCOOe%2FWwtGdh7ePxgzajf2e89BSk%3D",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "73a940a14534ba652033e5104d46ee6fbee4ac93caf79eac8a6ea10ef0371581": {
+            "id": "73a940a14534ba652033e5104d46ee6fbee4ac93caf79eac8a6ea10ef0371581",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "boardingPass/boarding-sameer.pdf",
+            "path": "https://udacitykioskstorage.blob.core.windows.net/passengerdata/boardingPass/boarding-sameer.pdf?sp=racwdli&st=2023-12-21T11:26:30Z&se=2023-12-24T19:26:30Z&spr=https&sv=2022-11-02&sr=c&sig=exie53NShLKCxjo%2FCOOe%2FWwtGdh7ePxgzajf2e89BSk%3D",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "162fc1362b9bab22138a24db90882a28a5b48b3fba45b790f9400eee8a6d2020": {
+            "id": "162fc1362b9bab22138a24db90882a28a5b48b3fba45b790f9400eee8a6d2020",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "boardingPass/boarding_janina.pdf",
+            "path": "https://udacitykioskstorage.blob.core.windows.net/passengerdata/boardingPass/boarding_janina.pdf?sp=racwdli&st=2023-12-21T11:26:30Z&se=2023-12-24T19:26:30Z&spr=https&sv=2022-11-02&sr=c&sig=exie53NShLKCxjo%2FCOOe%2FWwtGdh7ePxgzajf2e89BSk%3D",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "657f476b8388bbee96e090286a65060e59a6cc54154bad79eff181414bb770d2": {
+            "id": "657f476b8388bbee96e090286a65060e59a6cc54154bad79eff181414bb770d2",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "boardingPass/boarding_daniel.pdf",
+            "path": "https://udacitykioskstorage.blob.core.windows.net/passengerdata/boardingPass/boarding_daniel.pdf?sp=racwdli&st=2023-12-21T11:26:30Z&se=2023-12-24T19:26:30Z&spr=https&sv=2022-11-02&sr=c&sig=exie53NShLKCxjo%2FCOOe%2FWwtGdh7ePxgzajf2e89BSk%3D",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "72475498dda5ad7141bf6a03622482f31078371c494122adc99600a64bc6f923": {
+            "id": "72475498dda5ad7141bf6a03622482f31078371c494122adc99600a64bc6f923",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "boardingPass/boarding_joshua.pdf",
+            "path": "https://udacitykioskstorage.blob.core.windows.net/passengerdata/boardingPass/boarding_joshua.pdf?sp=racwdli&st=2023-12-21T11:26:30Z&se=2023-12-24T19:26:30Z&spr=https&sv=2022-11-02&sr=c&sig=exie53NShLKCxjo%2FCOOe%2FWwtGdh7ePxgzajf2e89BSk%3D",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "dfb057b382f015412c9c63c48223e916e6f6b8564cd5af54c0eb97f305d12ec2": {
+            "id": "dfb057b382f015412c9c63c48223e916e6f6b8564cd5af54c0eb97f305d12ec2",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "boardingPass/boarding_kartik.pdf",
+            "path": "https://udacitykioskstorage.blob.core.windows.net/passengerdata/boardingPass/boarding_kartik.pdf?sp=racwdli&st=2023-12-21T11:26:30Z&se=2023-12-24T19:26:30Z&spr=https&sv=2022-11-02&sr=c&sig=exie53NShLKCxjo%2FCOOe%2FWwtGdh7ePxgzajf2e89BSk%3D",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        },
+        "f04ffef791d6e5d9a0fffc7fe37818589cad0a3048fe4e5531c9eca862104c95": {
+            "id": "f04ffef791d6e5d9a0fffc7fe37818589cad0a3048fe4e5531c9eca862104c95",
+            "format": "pdf",
+            "state": 2,
+            "type": 5,
+            "name": "boardingPass/boarding_pascal.pdf",
+            "path": "https://udacitykioskstorage.blob.core.windows.net/passengerdata/boardingPass/boarding_pascal.pdf?sp=racwdli&st=2023-12-21T11:26:30Z&se=2023-12-24T19:26:30Z&spr=https&sv=2022-11-02&sr=c&sig=exie53NShLKCxjo%2FCOOe%2FWwtGdh7ePxgzajf2e89BSk%3D",
+            "size": null,
+            "mimeType": "application/pdf",
+            "labelingState": 2,
+            "schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/labels.json"
+        }
+    },
+    "lastVisitedAssetId": "f04ffef791d6e5d9a0fffc7fe37818589cad0a3048fe4e5531c9eca862104c95",
+    "recentModelRecords": [
+        {
+            "modelInfo": {
+                "modelId": "63ea94e2-2554-4323-821d-fb1b26cf19f6",
+                "createdDateTime": "2023-12-22T12:16:32Z",
+                "isComposed": false
+            },
+            "averageAccuracy": 0.959,
+            "accuracies": {
+                "Baggage": 0.995,
+                "Boarding Time": 0.636,
+                "Carrier": 0.995,
+                "Class": 0.909,
+                "Date": 0.995,
+                "Destination": 0.995,
+                "Flight No.": 0.995,
+                "Gate": 0.995,
+                "Origin": 0.995,
+                "Passenger Name": 0.995,
+                "Seat": 0.995
+            },
+            "isComposed": false
+        }
+    ],
+    "trainRecord": {
+        "modelInfo": {
+            "modelId": "63ea94e2-2554-4323-821d-fb1b26cf19f6",
+            "createdDateTime": "2023-12-22T12:16:32Z",
+            "isComposed": false
+        },
+        "averageAccuracy": 0.959,
+        "accuracies": {
+            "Baggage": 0.995,
+            "Boarding Time": 0.636,
+            "Carrier": 0.995,
+            "Class": 0.909,
+            "Date": 0.995,
+            "Destination": 0.995,
+            "Flight No.": 0.995,
+            "Gate": 0.995,
+            "Origin": 0.995,
+            "Passenger Name": 0.995,
+            "Seat": 0.995
+        }
+    },
+    "predictModelId": "63ea94e2-2554-4323-821d-fb1b26cf19f6"
+}

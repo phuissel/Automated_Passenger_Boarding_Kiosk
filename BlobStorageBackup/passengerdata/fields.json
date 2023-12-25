@@ -1,0 +1,61 @@
+{
+    "$schema": "https://schema.cognitiveservices.azure.com/formrecognizer/2021-03-01/fields.json",
+    "fields": [
+        {
+            "fieldKey": "Passenger Name",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Carrier",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Flight No.",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Class",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Origin",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Destination",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Date",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Gate",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Baggage",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Seat",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "Boarding Time",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        }
+    ],
+    "definitions": {}
+}
